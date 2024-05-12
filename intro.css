@@ -14,6 +14,9 @@ body {
     transition: background-color 0.3s, color 0.3s;
     overflow-x: hidden;
     overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -89,7 +92,7 @@ section{
     position: flex;
     height: 100vh;
     width: 100%;
-    background: url(../imagenes/fondo1.jpg);
+    background: url(../proyecto/imagenes/fondo1.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -115,24 +118,43 @@ section{
     color: #ffffff;
 }
 
+/* nosotros */
 .title{
     margin-top: none;
     display: flex;
     justify-content: center;
 }
 
+.content-mision, .content-vision, .content-valor{
+    padding: 10px 0 10px 0;
+}
+/* contacto */
+.formulario-div{
+    width:400px;
+    margin: auto;
+}
+.formulario-contacto h1{
+    font-size: 0px;
+}
+.formulario-contacto h2{ 
+    font-size: 22px;
+}
+.cuadro {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid#1F252E ;
+}
+
 footer{
     display: flex;
-    place-items: center;
     font-size: 1rem;
     padding: 10px;
-    align-items: center;
-    text-align: center;
     color: #ffffff;
     background-color: var(--primary-dark);
-    transition: all .3s ease-in-out;
-    bottom: 0;
     justify-content: space-between;
+    text-align: center;
+    margin-top: auto;
 }
 
 .footer-nav{

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="intro.css">
+    <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon"> 
+    <title>Vanti</title>
+</head>
+
+<body>
+	<header id="container-header">
+        <div class="header-page">
+
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="imagenes/logo.png" alt="Logo">
+                </a>
+            </div>
+
+            <!--menu-->
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <div class="header-right">
+                <div>
+                    <input type="text" placeholder="Buscar" name="text" class="input"/>
+                </div>
+                <div class="header-carrito">
+                    <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+	<section class="formulario-contacto">
+		<div class="formulario-div">
+			<form action="">
+				<p>
+					¿Cómo podemos ayudarte?
+				</p>
+				<p>
+					<h2>Por favor, déjenos su datos para poder contactarlo</h2>
+				</p>
+				<p>
+					<label for="nombre">Nombre:</label>
+					<input class="cuadro" type="text" name="nombre" placeholder="Ingrese su nombre" maxlength="40" >
+				</p>
+				<p>
+					<label for="apellido">Apellido:</label>
+					<input class="cuadro" type="text" name="apellido" placeholder="Ingrese su apellido" maxlength="40">
+				</p>
+				<p>
+					<label for="apellido">Edad:</label>
+					<input class="cuadro" type="number" name="edad" placeholder="Ingrese su edad" maxlength="3" min="0" max="200">
+				</p>
+				<p>
+					Sexo: <br>
+					<input type="radio" name="genero" value="Masculino" id="masculino"><label for="genero">Masculino</label>
+					<input type="radio" name="genero" value="Femenino" id="femenino" ><label for="genero"></label>Femenino</label>
+					<input type="radio" name="genero" value="noRevelarlo" id="norevelarlo" ><label for="genero"></label>Prefiero no revelar</label>
+				</p>
+				<p>
+					<br>Email:
+					<input class="cuadro" type="email" name="email" placeholder="mail@dominio.com" maxlength="60">
+				</p>
+				<p>
+					<label for="comentario">Cuéntanos acerca de tu problema: </label>
+					<textarea name="comentario" id="comentario" rows="5" cols="40" maxlength="300"></textarea>
+				</p>
+				<button type="submit" class="button">
+					Enviar
+					<i class="ri-arrow-right-line"></i>
+				</button>
+			</form>
+		</div>
+	</section>
+
+    <footer>
+		<div class="footer-nav">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="productos.html">Productos</a></li>
+			<li><a href="nosotros.html">Nosotros</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</div>
+		<div class="footer-redes">
+			<a href="https://www.linkedin.com/"><i class='bx bxl-linkedin'></i></a>
+			<a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+			<a href="https://www.github.com/"><i class='bx bxl-github'></i></a>
+			<a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+		</div>
+		<div class="footer-copyright">
+			© 2024 Todos los derechos reservados
+		</div>
+	</footer>
+</body>
+</html>
