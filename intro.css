@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400&display=swap');
+:root {
+    --primary-color: #f9532d;
+    --primary-dark: #1F252E;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header {
+    position: relative;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
+    background: #fff;
+    position: sticky;
+    top: 0;
+}
+
+.container-header {
+    padding: 0 8.4rem;
+}
+
+.header-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.header-logo{
+    margin-left: 20px;
+}
+
+.header-logo img {
+    width: 30px;
+    height: auto;
+    background-color: none;
+}
+
+.header-carrito{
+    padding-right: 50px;
+
+}
+
+ul, .header-right{
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
+    background-color: transparent;
+    overflow: hidden;
+
+}
+
+.header-right a{
+    display: inline-block;
+    font-size: 22px;
+    color: #000000;
+}
+
+li a{
+    display: inline-block;
+    padding: .3rem 1rem;
+    color: var(--nav-text);
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: .7px;
+    border-radius: 36px;
+    transition: .3s;
+}
+
+li a.active, li a:hover {
+    color: var(--primary-color);
+}
+
+section{
+    padding: 90px 14% 70px;
+}
+
+.container-main {
+    position: flex;
+    height: 100vh;
+    width: 100%;
+    background: url(../proyecto/imagenes/fondo1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-main-text h1, .title h1{
+    font-weight: 700;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.container-main-text h4{
+    line-height: 1.1;
+    padding-bottom: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 14px 42px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.title{
+    margin-top: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    place-items: center;
+    font-size: 1rem;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: var(--primary-dark);
+    transition: all .3s ease-in-out;
+    bottom: 0;
+    justify-content: space-between;
+}
+
+.footer-nav{
+    display: flex;
+}
+
+.footer-nav a{
+    display: inline-block;
+    margin: 0 30px;
+    font-weight: 500;
+}
+

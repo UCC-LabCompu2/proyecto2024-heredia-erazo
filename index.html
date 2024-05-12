@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="intro.css">
+    <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon"> 
     <title>Vanti</title>
 </head>
 
@@ -16,32 +19,25 @@
         <div class="header-page">
 
             <div class="header-logo">
-                <a href="#">Logo</a>
+                <a href="#">
+                    <img src="imagenes/logo.png" alt="Logo">
+                </a>
             </div>
-
-            <!--menu para celular-->
-            <label for="click" class="mainicon">
-                <div class="menu">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </label>
 
             <!--menu-->
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
 
-            <div class="segundo-menu">
-                <div class="header-">
-                    <input type="text" placeholder="Search" name="text" class="input"/>
-                    <svg></svg>
-                </div>
-
+            <div class="header-right">
                 <div>
-                    <a href="#">Carrito</a>
+                    <input type="text" placeholder="Buscar" name="text" class="input"/>
+                </div>
+                <div class="header-carrito">
+                    <a href="#"><i class="ri-shopping-cart-fill"></i></a>
                 </div>
             </div>
         </div>
@@ -50,39 +46,28 @@
     <!--CONTENIDO-->
     <section class="container-main">
 
-    <h1>Bienvenido a Vanti</h1>
-    <button class="button-inicio">Comprar Ahora</button>
+    <div class="container-main-text">
+        <h1>Bienvenido a Vanti</h1>
+        <br>
+        <h4> Preparate para lo nuevo en moda</h4>
+        <a href="#" class="button">
+            Comprar Ahora
+            <i class="ri-arrow-right-line"></i>
+        </a>
+    </div>
 
     </section>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--PIE DE PAGINA-->
     <footer>
-        <div class="footer-nav>
-            <li><a href="/"></a></li>
-            <li><a href="/">Inicio</a></li>
-            <li><a href="/productos">Productos</a></li>
-            <li><a href="/nosotros">Nosotros</a></li>
-            <li><a href="/contacto">Contacto</a></li>
+        <div class="footer-nav">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
         </div>
         <div class="footer-redes">
             <a href="#"><i class='bx bxl-linkedin'></i></a>
@@ -91,7 +76,7 @@
             <a href="#"><i class='bx bxl-facebook-circle'></i></a>
         </div>
         <div class="footer-copyright">
-            © 2024 Todos los derechos reservados | Ivan Jalid
+            © 2024 Todos los derechos reservados
         </div>
     </footer>
 
