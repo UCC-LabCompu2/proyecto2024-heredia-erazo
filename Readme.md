@@ -6,7 +6,7 @@
 
 ## GitHub Page
 
-https://ucc-labcompu2.github.io/proyecto2024-heredia/
+[Deploy en la web](https://ucc-labcompu2.github.io/proyecto2024-heredia)
 
 ## Tecnologías utilizadas
 
