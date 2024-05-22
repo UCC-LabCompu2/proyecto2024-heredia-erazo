@@ -2,7 +2,7 @@
 
 ## Autores
 - **Heredia Jalid**, Ivàn
-- **Erazo**, Sofia Lumilen
+- **Erazo**, Sofía Lumilen
 
 |EMAIL|AUTOR|
 |-----|-----|
