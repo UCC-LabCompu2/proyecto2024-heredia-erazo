@@ -11,7 +11,7 @@
 
 ## Descripción
 
-En **Vanti**, buscamos ofrecer lo mejor en moda, tecnología, hogar y más, a través de una experiencia de compra en línea segura, fácil y gratificante. Queremos que el comercio electrónico sea accesible y beneficioso para todos, haciendo de cada compra una experiencia positiva y satisfactoria.
+En **Vanti**, buscamos ofrecer lo mejor en moda a través de una experiencia de compra en línea segura, fácil y gratificante. Queremos que el comercio electrónico sea accesible y beneficioso para todos, haciendo de cada compra una experiencia positiva y satisfactoria.
 
 ## GitHub Page
 
