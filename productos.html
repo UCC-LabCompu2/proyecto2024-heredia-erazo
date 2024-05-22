@@ -3,68 +3,105 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Heredia, Ivan; Erazo, Sofia">
+    <meta name="description" content="Ecommerce">
+    <meta name="keywords" content="Tienda, ropa, outlet, moda">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="intro.css">
-    <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon"> 
+    <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
     <title>Vanti</title>
 </head>
-
 <body>
-    <header id="container-header">
-        <div class="header-page">
+<header id="container-header">
+    <div class="header-page">
 
-            <div class="header-logo">
-                <a href="index.html">
-                    <img src="imagenes/logo.png" alt="Logo">
-                </a>
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="imagenes/logo.png" alt="Logo">
+            </a>
+        </div>
+
+        <!--menu-->
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+
+        <div class="header-right">
+            <div class="header-right-buscador">
+                <label for="buscar"></label>
+                <input type="text" id="buscar" placeholder="Buscar" name="text" class="input"/>
             </div>
-
-            <!--menu-->
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-
-            <div class="header-right">
-                <div>
-                    <input type="text" placeholder="Buscar" name="text" class="input"/>
-                </div>
-                <div class="header-carrito">
-                    <a href="#"><i class="ri-shopping-cart-fill"></i></a>
-                </div>
+            <div class="header-right-carrito">
+                <a href="#"><i class="ri-shopping-cart-fill"></i></a>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 
-    <!--contenidoo-->
-    <section>
-        
+<!--contenidoo-->
+
+<main class="main-content">
+    <aside class="aside-right">
+        <h2>Categorías</h2>
+        <ol>
+            <li><a href="productos.html">Buzos</a></li>
+            <li><a href="productos.html">Remeras</a></li>
+            <li><a href="productos.html">Pantalones</a></li>
+            <li><a href="productos.html">Zapatillas</a></li>
+        </ol>
+    </aside>
+    <section class="productos">
+        <div class="productos-card">
+            <img src="imagenes/buzo1.jpg" alt="Buzo Oversize talle XL">
+            <h3>Today is over</h3>
+            <p>Buzo Oversize XL</p>
+            <a href="#" class="button">Anadir al carrito<i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="productos-card">
+            <img src="imagenes/buzo2.jpg" alt="Buzo sin Capucha talle L">
+            <h3>War never changes</h3>
+            <p>Buzo sin capucha L</p>
+            <a href="#" class="button">Anadir al carrito<i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="productos-card">
+            <img src="imagenes/remera1.jpg" alt="Remera Oversize XL">
+            <h3>Only I decide my destiny</h3>
+            <p>Remera Oversize XL</p>
+            <a href="#" class="button">Anadir al carrito<i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="productos-card">
+            <img src="imagenes/remera2.jpg" alt="Remera Oversize L">
+            <h3>Even monsters can fear</h3>
+            <p>Remera Oversize L</p>
+            <a href="#" class="button">Anadir al carrito<i class="ri-arrow-right-line"></i></a>
+        </div>
     </section>
-
+</main>
 
 </body>
 
 <footer>
     <div class="footer-nav">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="productos.html">Productos</a></li>
-        <li><a href="nosotros.html">Nosotros</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
     </div>
-    <div class="footer-redes">
-        <a href="https://www.linkedin.com/"><i class='bx bxl-linkedin'></i></a>
-        <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
-        <a href="https://www.github.com/"><i class='bx bxl-github'></i></a>
-        <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+    <div class="footer-redes" id="redes">
+        <a href="https://www.linkedin.com/"><i class="ri-linkedin-box-fill"></i></a>
+        <a href="https://www.instagram.com/"><i class="ri-instagram-fill"></i></a>
+        <a href="https://www.github.com/"><i class="ri-github-fill"></i></a>
+        <a href="https://www.facebook.com/"><i class="ri-facebook-box-fill"></i></a>
     </div>
     <div class="footer-copyright">
-        © 2024 Todos los derechos reservados
+        <p>© 2024 Todos los derechos reservados</p>
     </div>
 </footer>
 

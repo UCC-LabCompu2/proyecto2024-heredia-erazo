@@ -1,98 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400&display=swap');
+
 :root {
     --primary-color: #f9532d;
     --primary-dark: #1F252E;
+    --color-white: #ffffff;
+    --second-dark: #000000;
 }
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Outfit', sans-serif;
-    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Outfit', 'Popins', sans-serif;
     overflow-x: hidden;
-    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-header {
-    position: relative;
-    box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
-    background: #fff;
-    position: sticky;
-    top: 0;
-}
+/*header*/
 
-.container-header {
-    padding: 0 8.4rem;
+header {
+    position: sticky;
+    background: #fff;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
+    top: 0;
 }
 
 .header-page {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 16px 0;
 }
 
-.header-logo{
+.header-logo {
     margin-left: 20px;
 }
 
 .header-logo img {
     width: 30px;
     height: auto;
-    background-color: none;
 }
 
-.header-carrito{
+.header-right-carrito {
     padding-right: 50px;
-
 }
 
-ul, .header-right{
+.header-right-carrito a{
+    text-decoration: none;
+}
+
+
+ul, .header-right, .footer-nav {
     display: flex;
-    gap: .6rem;
+    gap: 9px;
     list-style-type: none;
     background-color: transparent;
     overflow: hidden;
-
 }
 
-.header-right a{
+.header-right a {
     display: inline-block;
     font-size: 22px;
-    color: #000000;
+    color: var(--second-dark);
 }
 
-li a{
+
+li a {
     display: inline-block;
-    padding: .3rem 1rem;
-    color: var(--nav-text);
+    padding: 5px 16px;
+    color: var(--second-dark);
     text-decoration: none;
-    font-size: 1.05rem;
+    font-size: 16px;
     font-weight: 600;
-    letter-spacing: .7px;
     border-radius: 36px;
-    transition: .3s;
+    transition: 0.3s;
 }
 
-li a.active, li a:hover {
+li a:hover, #redes a:hover {
     color: var(--primary-color);
 }
 
-section{
+/* index */
+
+section {
+    width: 80%;
     padding: 90px 14% 70px;
 }
 
 .container-main {
-    position: flex;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
-    background: url(../proyecto2024-heredia/imagenes/fondo1.jpg);
+    background: url(../proyecto/imagenes/fondo1.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -100,71 +103,150 @@ section{
     justify-content: flex-start;
 }
 
-.container-main-text h1, .title h1{
+.container-main-text h1, .title h1 {
     font-weight: 700;
     line-height: 2;
     margin-bottom: 20px;
 }
 
-.container-main-text h4{
+.container-main-text h4 {
     line-height: 1.1;
     padding-bottom: 10px;
 }
 
+/* button general */
+
 .button {
+    font-family: 'Outfit', 'Popins', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
     display: inline-block;
     padding: 14px 42px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--second-dark);;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    transition: 0.9s;
+}
+
+/* productos */
+
+.main-content {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.aside-right {
+    width: 20%;
+    background-color: var(--color-white);
+    padding: 20px;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
+}
+
+.aside-right a{
+    margin: 10px 0 10px 0;
+}
+
+.aside-right ol{
+    list-style-type: none;
+}
+
+.productos {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.productos-card {
+    background-color: var(--color-white);
+    border: 1px solid #4f4653;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+
+}
+
+.productos-card img {
+    width: 100%;
+    height: 70%;
+    border-radius: 10px 10px 0 0;
+}
+
+.productos-card h3 {
+    font-size: 20px;
+    margin: 15px 0 2px 0;
+}
+
+.productos-card p {
+    font-size: 1rem;
+    color: #757272;
+}
+
+.productos-card a i{
+    margin-left: 10px;
 }
 
 /* nosotros */
-.title{
-    margin-top: none;
+
+.title {
     display: flex;
     justify-content: center;
 }
 
-.content-mision, .content-vision, .content-valor{
+.content-mision, .content-vision, .content-valor {
     padding: 10px 0 10px 0;
 }
+
 /* contacto */
-.formulario-div{
-    width:400px;
+
+.formulario-div {
+    width: 400px;
     margin: auto;
 }
-.formulario-contacto h1{
-    font-size: 0px;
-}
-.formulario-contacto h2{ 
+
+.formulario-contacto h2 {
     font-size: 22px;
 }
+
+.title-contacto{
+    margin: 0 0 10px 0;
+}
+
 .cuadro {
     width: 100%;
     padding: 10px;
     margin-bottom: 16px;
-    border: 1px solid#1F252E ;
+    border: 1px solid #1F252E;
 }
 
-footer{
+.genero{
+    margin: 5px 0 13px 0;
+}
+
+/* footer */
+
+footer {
     display: flex;
-    font-size: 1rem;
+    font-size: 16px;
     padding: 10px;
-    color: #ffffff;
+    color: var(--color-white);
     background-color: var(--primary-dark);
     justify-content: space-between;
     text-align: center;
     margin-top: auto;
-    bottom: 0;
 }
 
-.footer-nav{
-    display: flex;
-}
-
-.footer-nav a{
+.footer-nav a, .footer-redes a {
+    color: var(--color-white);
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 15px 0 15px;
     font-weight: 500;
+    text-decoration: none;
 }
 

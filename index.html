@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Heredia, Ivan; Erazo, Sofia">
+    <meta name="description" content="Ecommerce">
+    <meta name="keywords" content="Tienda, ropa, outlet, moda">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="intro.css">
     <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
@@ -14,68 +15,67 @@
 </head>
 
 <body>
-    <header id="container-header">
-        <div class="header-page">
+<header id="container-header">
+    <div class="header-page">
 
-            <div class="header-logo">
-                <a href="#">
-                    <img src="imagenes/logo.png" alt="Logo">
-                </a>
+        <div class="header-logo">
+            <a href="#">
+                <img src="imagenes/logo.png" alt="Logo">
+            </a>
+        </div>
+
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+
+        <div class="header-right">
+            <div class="header-right-buscador">
+                <label for="buscar"></label>
+                <input type="text" id="buscar" placeholder="Buscar" name="text" class="input"/>
             </div>
-
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-
-            <div class="header-right">
-                <div>
-                    <input type="text" placeholder="Buscar" name="text" class="input"/>
-                </div>
-                <div class="header-carrito">
-                    <a href="#"><i class="ri-shopping-cart-fill"></i></a>
-                </div>
+            <div class="header-right-carrito">
+                <a href="#"><i class="ri-shopping-cart-fill"></i></a>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 
-    <!--CONTENIDO-->
-    <section class="container-main">
+<!--CONTENIDO-->
+<section class="container-main">
 
     <div class="container-main-text">
         <h1>Bienvenido a Vanti</h1>
-        <br>
         <h4> Prepárate para lo nuevo en moda</h4>
-        <a class="button">
-            Comprar Ahora
+        <a class="button" href="productos.html">
+            Comprar ahora
             <i class="ri-arrow-right-line"></i>
         </a>
     </div>
 
-    </section>
+</section>
 
 
-
-
-    <footer>
-        <div class="footer-nav">
+<footer>
+    <div class="footer-nav">
+        <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="productos.html">Productos</a></li>
             <li><a href="nosotros.html">Nosotros</a></li>
             <li><a href="contacto.html">Contacto</a></li>
-        </div>
-        <div class="footer-redes">
-            <a href="https://www.linkedin.com/"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
-            <a href="https://www.github.com/"><i class='bx bxl-github'></i></a>
-            <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
-        </div>
-        <div class="footer-copyright">
-            © 2024 Todos los derechos reservados
-        </div>
-    </footer>
-
-    </body>
+        </ul>
+    </div>
+    <div class="footer-redes" id="redes">
+        <a href="https://www.linkedin.com/"><i class="ri-linkedin-box-fill"></i></a>
+        <a href="https://www.instagram.com/"><i class="ri-instagram-fill"></i></a>
+        <a href="https://www.github.com/"><i class="ri-github-fill"></i></a>
+        <a href="https://www.facebook.com/"><i class="ri-facebook-box-fill"></i></a>
+    </div>
+    <div class="footer-copyright">
+        © 2024 Todos los derechos reservados
+    </div>
+</footer>
+</body>
 </html>
