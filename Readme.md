@@ -14,7 +14,7 @@
 |EMAIL|AUTOR|
 |-----|-----|
 |2312626@ucc.edu.ar|Heredia Jalid, Iván|
-|2318441@ucc.edu.ar|Erazo, Sofia Lumilen|
+|2318441@ucc.edu.ar|Erazo, Sofía Lumilen|
 
 ## Descripción
 
