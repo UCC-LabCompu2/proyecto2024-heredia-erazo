@@ -50,7 +50,7 @@ header {
     padding-right: 50px;
 }
 
-.header-right-carrito a{
+.header-right-carrito a {
     text-decoration: none;
 }
 
@@ -147,11 +147,11 @@ section {
     box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
 }
 
-.aside-right a{
+.aside-right a {
     margin: 10px 0 10px 0;
 }
 
-.aside-right ol{
+.aside-right ol {
     list-style-type: none;
 }
 
@@ -188,7 +188,7 @@ section {
     color: #757272;
 }
 
-.productos-card a i{
+.productos-card a i {
     margin-left: 10px;
 }
 
@@ -214,7 +214,7 @@ section {
     font-size: 22px;
 }
 
-.title-contacto{
+.title-contacto {
     margin: 0 0 10px 0;
 }
 
@@ -225,7 +225,7 @@ section {
     border: 1px solid #1F252E;
 }
 
-.genero{
+.genero {
     margin: 5px 0 13px 0;
 }
 
