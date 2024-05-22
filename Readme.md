@@ -1,7 +1,14 @@
 # Proyecto Ecommerce
 
+## Índice
+[Inicio](https://ucc-labcompu2.github.io/proyecto2024-heredia-erazo/index.html)
+[Productos](https://ucc-labcompu2.github.io/proyecto2024-heredia-erazo/productos.html)
+[Nosotros](https://ucc-labcompu2.github.io/proyecto2024-heredia-erazo/nosotros.html)
+[Contacto](https://ucc-labcompu2.github.io/proyecto2024-heredia-erazo/contacto.html)
+
+
 ## Autores
-- **Heredia Jalid**, Ivàn
+- **Heredia Jalid**, Iván
 - **Erazo**, Sofía Lumilen
 
 |EMAIL|AUTOR|
@@ -15,7 +22,7 @@ En **Vanti**, buscamos ofrecer lo mejor en moda a través de una experiencia de 
 
 ## GitHub Page
 
-[Deploy en la web](https://ucc-labcompu2.github.io/proyecto2024-heredia)
+[Deploy en la web](https://ucc-labcompu2.github.io/proyecto2024-heredia-erazo/index.html)
 
 ## Tecnologías utilizadas
 
