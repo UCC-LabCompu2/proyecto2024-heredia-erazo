@@ -1,10 +1,11 @@
 ### Proyecto Ecommerce
 
 ## Índice
-- [Inicio](https://ucc-labcompu2.github.io/proyecto2024-heredia-erazo/index.html)
-- [Productos](https://ucc-labcompu2.github.io/proyecto2024-heredia-erazo/productos.html)
-- [Nosotros](https://ucc-labcompu2.github.io/proyecto2024-heredia-erazo/nosotros.html)
-- [Contacto](https://ucc-labcompu2.github.io/proyecto2024-heredia-erazo/contacto.html)
+- [Inicio de la página](https://ucc-labcompu2.github.io/proyecto2024-heredia-erazo/index.html)
+- [Autores](https://github.com/UCC-LabCompu2/proyecto2024-heredia-erazo/tree/main?tab=readme-ov-file#autores)
+- [Descripción](https://github.com/UCC-LabCompu2/proyecto2024-heredia-erazo/?tab=readme-ov-file#descripci%C3%B3n)
+- [GitHub Page](https://github.com/UCC-LabCompu2/proyecto2024-heredia-erazo/?tab=readme-ov-file#github-page)
+- [Tecnologías utilizadas](https://github.com/UCC-LabCompu2/proyecto2024-heredia-erazo/?tab=readme-ov-file#tecnolog%C3%ADas-utilizadas)
 
 
 ## Autores
