@@ -1,4 +1,4 @@
-# Proyecto Ecommerce
+### Proyecto Ecommerce
 
 ## Índice
 - [Inicio](https://ucc-labcompu2.github.io/proyecto2024-heredia-erazo/index.html)
