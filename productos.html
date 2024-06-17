@@ -35,7 +35,7 @@
         <div class="header-right">
             <div class="header-right-buscador">
                 <label for="buscar"></label>
-                <input type="text" id="buscar" placeholder="Buscar" name="text" class="input"/>
+                <input type="text" id="buscar" placeholder="Buscar" name="text" class="input" onchange="busquedaCorrecta()"/>
             </div>
             <div class="header-right-carrito">
                 <a href="carro.html"><i class="ri-shopping-cart-fill"></i></a>
@@ -61,25 +61,29 @@
             <img src="imagenes/buzo1.jpg" alt="Buzo Oversize talle XL">
             <h3>Today is over</h3>
             <p>Buzo Oversize XL</p>
-            <a href="#" class="button">Anadir al carrito<i class="ri-arrow-right-line"></i></a>
+            <p class="price">Precio: $55.000</p>
+            <a href="#" class="button" onclick="anadirProducto('Today is over', 55000)">Añadir al carrito<i class="ri-arrow-right-line"></i></a>
         </div>
         <div class="productos-card">
             <img src="imagenes/buzo2.jpg" alt="Buzo sin Capucha talle L">
             <h3>War never changes</h3>
             <p>Buzo sin capucha L</p>
-            <a href="#" class="button">Anadir al carrito<i class="ri-arrow-right-line"></i></a>
+            <p class="price">Precio: $33.000</p>
+            <a href="#" class="button" onclick="anadirProducto('War never changes', 33000)">Añadir al carrito<i class="ri-arrow-right-line"></i></a>
         </div>
         <div class="productos-card">
             <img src="imagenes/remera1.jpg" alt="Remera Oversize XL">
             <h3>Only I decide my destiny</h3>
             <p>Remera Oversize XL</p>
-            <a href="#" class="button">Anadir al carrito<i class="ri-arrow-right-line"></i></a>
+            <p class="price">Precio: $15.500</p>
+            <a href="#" class="button" onclick="anadirProducto('Only I decide my destiny', 15500)">Añadir al carrito<i class="ri-arrow-right-line"></i></a>
         </div>
         <div class="productos-card">
             <img src="imagenes/remera2.jpg" alt="Remera Oversize L">
             <h3>Even monsters can fear</h3>
             <p>Remera Oversize L</p>
-            <a href="#" class="button">Anadir al carrito<i class="ri-arrow-right-line"></i></a>
+            <p class="price">Precio: $13.000</p>
+            <a href="#" class="button" onclick="anadirProducto('Even monsters can fear', 13000)">Añadir al carrito<i class="ri-arrow-right-line"></i></a>
         </div>
     </section>
 </main>
