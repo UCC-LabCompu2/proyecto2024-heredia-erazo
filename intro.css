@@ -250,3 +250,10 @@ footer {
     text-decoration: none;
 }
 
+.items-carrito {
+    border-radius: 10px 10px 0 0;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
+}
+
