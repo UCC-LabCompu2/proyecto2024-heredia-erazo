@@ -16,17 +16,17 @@
     <title>Vanti</title>
 </head>
 
-<body>
+<body onload="compraLocal()">
 <header id="container-header">
     <div class="header-page">
         <div class="header-logo">
-            <a href="#">
+            <a href="index.html">
                 <img src="imagenes/logo.png" alt="Logo">
             </a>
         </div>
 
         <ul>
-            <li><a href="#">Inicio</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="productos.html">Productos</a></li>
             <li><a href="nosotros.html">Nosotros</a></li>
             <li><a href="contacto.html">Contacto</a></li>
@@ -35,7 +35,7 @@
         <div class="header-right">
             <div class="header-right-buscador">
                 <label for="buscar"></label>
-                <input type="text" id="buscar" placeholder="Buscar" name="text" class="input"/>
+                <input type="text" id="buscar" placeholder="Buscar" name="text" class="input" onchange="busquedaCorrecta()"/>
             </div>
             <div class="header-right-carrito">
                 <a href="carro.html"><i class="ri-shopping-cart-fill"></i></a>
@@ -44,11 +44,15 @@
     </div>
 </header>
 
-<!--CONTENIDO-->
-<section>
-
-
-</section>
+<main class="main-content">
+    <section>
+        <h2>Carrito de Compras</h2>
+        <div id="carro-info"></div>
+        <p id="precio-total"></p>
+        <button onclick="comprar()" class="button">Comprar</button>
+        <canvas id="ticketCanvas" width="400" height="600" style="border:1px solid #000000; display: none;"></canvas>
+    </section>
+</main>
 
 
 <footer>
