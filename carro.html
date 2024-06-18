@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="intro.css">
     <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
     <script type="text/javascript" src="scripts.js"></script>
-
     <title>Vanti</title>
 </head>
 
@@ -35,7 +34,8 @@
         <div class="header-right">
             <div class="header-right-buscador">
                 <label for="buscar"></label>
-                <input type="text" id="buscar" placeholder="Buscar" name="text" class="input" onchange="busquedaCorrecta()"/>
+                <input type="text" id="buscar" placeholder="Buscar" name="text" class="input-buscador"
+                       onchange="busquedaCorrecta()"/>
             </div>
             <div class="header-right-carrito">
                 <a href="carro.html"><i class="ri-shopping-cart-fill"></i></a>
@@ -49,8 +49,7 @@
         <h2>Carrito de Compras</h2>
         <div id="carro-info"></div>
         <p id="precio-total"></p>
-        <button onclick="comprar()" class="button">Comprar</button>
-        <canvas id="ticketCanvas" width="400" height="600" style="border:1px solid #000000; display: none;"></canvas>
+        <button onclick="emitirTicket()" class="button">Comprar</button>
     </section>
 </main>
 

@@ -15,7 +15,7 @@
     <title>Vanti</title>
 </head>
 
-<body>
+<body onload="dibujarTicket()">
 <header id="container-header">
     <div class="header-page">
         <div class="header-logo">
@@ -44,61 +44,12 @@
     </div>
 </header>
 
-<section class="formulario-contacto">
-    <div class="formulario-div">
-        <form id="form" onsubmit="return validarForm()">
-            <div class="title-contacto">
-                <p>
-                    ¿Cómo podemos ayudarte?
-                </p>
-                <h2>Por favor, déjanos tus datos para poder contactarte</h2>
-            </div>
-            <p>
-                <label for="nombre">Nombre:</label>
-                <input class="cuadro" type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"
-                       maxlength="40" size="5">
-            </p>
-            <p>
-                <label for="apellido">Apellido:</label>
-                <input class="cuadro" type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido"
-                       maxlength="40"
-                       size="5">
-            </p>
-            <p>
-                <label for="edad">Edad:</label>
-                <input class="cuadro" type="number" id="edad" name="edad" placeholder="Ingrese su edad" min="0"
-                       max="200" size="5">
-            </p>
+<main class="main-content">
+    <section>
+        <canvas id="ticketCanvas" width="400" height="600" style="border:1px solid #000000; display: block;"></canvas>
+    </section>
+</main>
 
-            <div class="genero">
-                <p>
-                    Genero:
-                    <input type="radio" name="genero" value="Masculino" id="masculino">
-                    <label for="masculino">Masculino </label>
-                    <input type="radio" name="genero" value="Femenino" id="femenino">
-                    <label for="femenino">Femenino</label>
-                    <input type="radio" name="genero" value="noRevelarlo" id="norevelarlo">
-                    <label for="norevelarlo">Prefiero no revelar</label>
-                </p>
-            </div>
-            <p>
-                <label for="email">
-                    Email:
-                </label>
-                <input class="cuadro" id="email" name="email" placeholder="mail@dominio.com" maxlength="60"
-                       size="5">
-            </p>
-            <p>
-                <label for="comentario">Cuéntanos acerca de tu problema: </label>
-                <textarea name="comentario" id="comentario" rows="5" cols="40" maxlength="300"></textarea>
-            </p>
-            <button type="submit" class="button">
-                Enviar
-                <i class="ri-arrow-right-line"></i>
-            </button>
-        </form>
-    </div>
-</section>
 
 <footer>
     <div class="footer-nav">

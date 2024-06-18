@@ -85,6 +85,13 @@ li a:hover, #redes a:hover {
     color: var(--primary-color);
 }
 
+.input-buscador {
+    border: 2px solid var(--primary-dark);
+    padding: 5px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
 /* index */
 
 section {
@@ -116,7 +123,7 @@ section {
 
 /* button general */
 
-.button {
+.button, .button-eliminar {
     font-family: 'Outfit', 'Popins', sans-serif;
     font-size: 15px;
     margin-top: 10px;
@@ -125,6 +132,8 @@ section {
     background-color: var(--second-dark);;
     color: var(--color-white);
     text-decoration: none;
+    border-radius: 100px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .3);
 }
 
 .button:hover {
@@ -229,6 +238,23 @@ section {
     margin: 5px 0 13px 0;
 }
 
+/* carro */
+
+.items-carrito {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
+}
+
+.button-eliminar {
+    background-color: var(--primary-dark);
+}
+
+#ticketCanvas {
+    margin: auto;
+}
+
 /* footer */
 
 footer {
@@ -249,11 +275,3 @@ footer {
     font-weight: 500;
     text-decoration: none;
 }
-
-.items-carrito {
-    border-radius: 10px 10px 0 0;
-    margin: 20px;
-    padding: 10px;
-    box-shadow: 0 4px 17px rgba(0, 0, 0, .1);
-}
-
