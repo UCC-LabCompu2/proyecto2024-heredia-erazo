@@ -53,11 +53,11 @@ let validarEmail = (email) => {
 
 
 const validarForm = () => {
-    let nombre = document.getElementById('nombre');
-    let apellido = document.getElementById('apellido');
-    let edad = document.getElementById('edad');
-    let email = document.getElementById('email');
-    let comentario = document.getElementById('comentario');
+    const nombre = document.getElementById('nombre');
+    const apellido = document.getElementById('apellido');
+    const edad = document.getElementById('edad');
+    const email = document.getElementById('email');
+    const comentario = document.getElementById('comentario');
 
     let esValido = true;
 
@@ -97,7 +97,7 @@ const validarForm = () => {
  * @param {number} precio - Precio del producto a añadir
  */
 let anadirProducto = (nombreProducto, precio) => {
-    let carro = JSON.parse(localStorage.getItem('carro')) || [];
+    const carro = JSON.parse(localStorage.getItem('carro')) || [];
 
     carro.push({nombreProducto, precio});
 
@@ -137,8 +137,8 @@ let compraLocal = () => {
     carroInfo.innerHTML = ''; // Limpia el contenido previo, no sacar
 
     for (let i = 0; i < carro.length; i++) {
-        let producto = carro[i];
-        let div = document.createElement('div');
+        const producto = carro[i];
+        const div = document.createElement('div');
 
         div.className = 'items-carrito';
         div.innerHTML = `
@@ -161,7 +161,7 @@ let compraLocal = () => {
  */
 let busquedaCorrecta = () => {
     let busqueda = document.getElementById('buscar');
-    let busquedaMin = busqueda.value.toLowerCase();
+    const busquedaMin = busqueda.value.toLowerCase();
     if (busquedaMin === "buzo" || busquedaMin === "remera") {
         window.location.href = 'productos.html';
         return true;
@@ -180,7 +180,7 @@ let dibujarTicket = () => {
     const canvas = document.getElementById('ticketCanvas');
     const ctx = canvas.getContext('2d');
 
-    let x = 30;
+    const x = 30;
     let y = 30;
     let total = 0;
 
