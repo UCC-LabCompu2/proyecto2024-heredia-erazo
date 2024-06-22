@@ -1,7 +1,7 @@
 /**
  * Descripción: Valida si un campo de un form está vacío y si es correcto
  * @method validarCampo
- * @param campo
+ * @param campo {Object} - Campo del formulario
  * @param {String} nombreCampo - Nombre del campo a validar (para mensajes de alerta)
  * @return {boolean} - True si el campo está vacío, false si no lo está
  */
@@ -24,7 +24,7 @@ let validarCampo = (campo, nombreCampo) => {
  * @return {boolean} - True si se selecciona una opción de género, false si no se selecciona
  */
 let validarGenero = () => {
-    let generos = document.getElementsByName('genero');
+    const generos = document.getElementsByName('genero');
     for (let i = 0; i < generos.length; i++) {
         if (generos[i].checked) { // si existe alguna opción seleccionada está ok
             return true;
