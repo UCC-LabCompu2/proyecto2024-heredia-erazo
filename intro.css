@@ -129,7 +129,7 @@ section {
     margin-top: 10px;
     display: inline-block;
     padding: 14px 42px;
-    background-color: var(--second-dark);;
+    background-color: var(--second-dark);
     color: var(--color-white);
     text-decoration: none;
     border-radius: 100px;
@@ -253,6 +253,8 @@ section {
 
 #ticketCanvas {
     margin: auto;
+    border: 1px solid var(--second-dark); 
+    display: block;
 }
 
 /* footer */
